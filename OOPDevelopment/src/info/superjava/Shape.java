@@ -2,5 +2,5 @@ package info.superjava;
 
 public interface Shape {
 
-	int getArea();
+	public int getArea();
 }
