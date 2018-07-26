@@ -36,7 +36,11 @@ public class AppRunnerCollections {
 			minShape = shapes.get(0);
 		}
 		
-		
+		for (Shape kjsgksrbkjxsfngsklnfg : shapes) {
+			if (maxShape.getArea() < kjsgksrbkjxsfngsklnfg.getArea()) {
+				maxShape = kjsgksrbkjxsfngsklnfg;
+			} 
+		}
 				
 		for (int i=0; i< shapes.size(); i++) {
 			
